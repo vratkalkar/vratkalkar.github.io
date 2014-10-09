@@ -1,5 +1,5 @@
 # Technical Blog
-#### It's about tech
+#### Week 1
 #### October 9th, 2014
 
 1. How would you describe version control?
