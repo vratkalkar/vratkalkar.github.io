@@ -2,6 +2,8 @@
 #### Week 1 Phase 0
 #### October 9th, 2014
 
+Here are a few points regarding version control, git and GitHub that are hopefully helpful and informative:
+
 1. How would you describe version control?
 
    Version control is a system that allows you to track and review changes/updates over time to files on your computer. You can then reference or revert back to any files state at any given time. This is very helpful when you realize an update to a file has caused error, or there is a syntax mistake and you need to go back to a previous correct working version.
@@ -17,4 +19,8 @@
    GitHub provides a central location to store and share code as opposed to just having it locally on your computer. This proves to be invaluable when working on collaborative projects requiring frequent and/or many contributors. It also provides an easy to navigate user interface for all project repositories and individual files.
 
    Lastly, your pushed changes to specific files are also highlighted for better reference and you can access up-to-date project files on any machine as long as you have access to your GitHub account.
+
+  This is a very quick overview, and if you search for more info on these topics, trust me you'll find hours worth of reading material!
+
+  Until next time....
 
