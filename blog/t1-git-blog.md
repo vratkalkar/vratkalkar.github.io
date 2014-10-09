@@ -1,5 +1,5 @@
 # Technical Blog
-#### Week 1
+#### Week 1 Phase 0
 #### October 9th, 2014
 
 1. How would you describe version control?
