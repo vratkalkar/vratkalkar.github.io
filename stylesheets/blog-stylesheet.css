@@ -1,0 +1,12 @@
+#header {
+  border: 2px solid black;
+  height: 100px;
+  width: 40%;
+  margin: auto;
+  padding-top: 20px;
+
+}
+
+p{
+  margin-left: 10px;
+}
