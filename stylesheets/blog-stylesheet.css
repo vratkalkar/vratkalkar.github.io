@@ -1,3 +1,7 @@
+html{
+  background-color: #cccccc;
+}
+
 #header {
   border: 2px solid black;
   height: 100px;
@@ -16,3 +20,4 @@ p{
    margin: auto;
    width: 60%;
 }
+
