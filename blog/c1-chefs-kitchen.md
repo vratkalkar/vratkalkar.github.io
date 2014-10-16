@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 # Cultural Blog
 #### A New Experience
 #### October 10th, 2014
