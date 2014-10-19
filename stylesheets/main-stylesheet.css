@@ -3,7 +3,6 @@ html {
 }
 
 #navbar{
-  border: 2px solid black;
   width: 100%;
   background-color: black;
 }
@@ -64,9 +63,29 @@ li:hover{
 
 #content .overlay i {
   margin-left: 100px;
+
 }
 
 i{
   color: white;
 }
+
+/* About page styles below */
+
+html{
+  background-color: black;
+}
+#about {
+  color: white;
+  font-family: 'Duru Sans', sans-serif;
+  width: 50%;
+  margin-top: 200px;
+  margin-left: 320px;
+}
+
+h1{
+    text-align: center;
+}
+
+
 
