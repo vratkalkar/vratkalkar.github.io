@@ -1,0 +1,47 @@
+html {
+  background-color: white;
+}
+
+#navbar{
+  border: 2px solid black;
+  width: 100%;
+  background-color: black;
+}
+#navbar ul li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 200px;
+  text-decoration: none;
+  font-family: 'Duru Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+li:hover{
+  color:black;
+}
+
+#content{
+  border: 2px solid black;
+  margin-top: 0px;
+  height: 520px;
+  width: 100%;
+  background-color: white;
+  background-image
+}
+
+#content h1{
+  font-family: 'Duru Sans', sans serif;
+  text-align:center;
+}
+
+#footer{
+  border: 2px solid black;
+  margin-top: 2px;
+  height: 80px;
+  width: 100%;
+}
+
