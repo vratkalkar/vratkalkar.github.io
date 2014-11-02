@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+        <title></title>
+    </head>
+    <body>
+        <div id="header">
+          <p>
+              TITLE: Enumerable Methods in Ruby
+          </p>
+          <p>
+              DATE: November 2nd, 2014
+          </p>
+        </div>
+
+
+        <div id="content">
+          <p>There are additional methods in Ruby that can be called on a object. These are referred to as Enumerables. There are countless enumerable methods that can be called on an object, with the full list viewable <a href ="http://www.ruby-doc.org/core-2.0.0/Enumerable.html">here.</a></p>
+
+          <p>The method I am going to focus on today is the <a href="http://www.ruby-doc.org/core-2.1.4/Enumerable.html#method-i-map">#map</a> method. The #map method can be called on an object and returns a new array with the results of running the passed code block on every element</p>
+
+          <p>This might sound similar to the #each method, however there is one significant difference. The <a href="http://ruby-doc.org/core-2.0.0/Array.html#method-i-each">#each</a> method iterates through each element of an array, however #map returns a new modified array, while #each returns the original array.</p>
+
+          <p>This is an example of the #map method:</p>
+
+             <script src="https://gist.github.com/vratkalkar/df0c0adfcdf335d06071.js"></script>
+
+          <p>To use the #each method as a comparison, if you called .each on the object above, the original array not the modified one would be returned<p>
+
+          <p>Here are some quick facts about the #map method for reference:</p>
+              <ul>
+                <li>The returned array is always the same size as the original enumerable</li>
+                <li>The returned array elements are the result of calling the passed code block on each element</li>
+                <li>You can also pass certain symbols as arguments to a  block ( ex. week.map(&:reverse)) which returns the array string elements reversed.</li>
+              </ul>
+
+          <p> I highly recommend reading the docs I mentioned earlier as well as books, such as <a href="http://www.manning.com/black2/"> The Well-Grounded Rubyist</a>, for much more detailed information on this topic.</p>
+
+
+           <p>
+
+        </div>
+    </body>
+</html>
