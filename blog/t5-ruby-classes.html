@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+        <title></title>
+    </head>
+    <body>
+        <div id="header">
+          <p>
+              TITLE: Ruby Classes
+          </p>
+          <p>
+              DATE: November 10th, 2014
+          </p>
+        </div>
+
+
+        <div id="content">
+          <p>There are times when you want to create a set of methods to run without individually defining a method and calling it on an object.</p>
+
+          <p>This is where <a href="http://www.ruby-doc.org/core-1.9.3/Class.html">classes</a> become beneficial, if not necessary.</p>
+
+          <p>A class in ruby sets a constant, or class name followed by defined methods. To provide a visual here is an example of a class named Number:
+
+            <script src="https://gist.github.com/vratkalkar/0e0b22a9104230e33d13.js"></script>
+
+          </p>
+
+          <p>
+            <ul>
+               <li>This class is initialized with a passed argument "(num)" and sets it as an instance variable, "@num".</li>
+
+               <li>The instance variable allows that set "num" value to be accessed across all methods in the class.</li>
+
+               <li>The subsequent methods access the "@num" value to perform the arithmetic defined in the method</li>
+            </ul>
+
+            <p>Now you're probably thinking, "That's great, but how do you set the number!?". That is where creating an instance of the class comes in, which you can see on line 19 f the gist above.</p>
+
+            <p>In the example I defined "example" which is equal to a new instance of the Number class set to 10, "Number.new(10)". The initialize method sets the instance variable to 10 and "example" can be called on each method as it is an object of the class.</p>
+
+            <p>This is a quick overview, and as always I recommend researching when possible to get a better understanding of the concept of classes in Ruby.</p>
+
+
+
+        </div>
+    </body>
+</html>
