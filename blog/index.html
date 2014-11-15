@@ -309,4 +309,59 @@
 
         </div>
     </body>
+
+<hr></hr>
+    <body>
+        <div id="header">
+          <p>
+              TITLE: Object Oriented Programming Concepts
+          </p>
+          <p>
+              DATE: November 15th, 2014
+          </p>
+        </div>
+
+
+        <div id="content">
+          <p>Every program includes a multitude of variables, each using a different syntax denoting its accessibiity, or <em>scope</em>.</p>
+
+          <p>These differences are important and is where understanding the concept of variable scope becomes very important.</p>
+
+          <p>In this weeks challenges a section covered variable scope and mentioned the following variable types:
+            <ul>
+              <li>Constant Variables</li>
+              <li>Global Variables</li>
+              <li>Instance Variables</li>
+              <li>Class Variables</li>
+              <li>Local Variables</li>
+            </ul>
+          </p>
+
+          <h2>Constant Variables</h2>
+          <p>To start at the top of the list, lets take a look at Constant variables. A Ruby constant is written in all caps (ex. MY_NAME) and  stores a value throughout a program. If you try to reassign the variable a warning will be thrown though unlike other programming languages, the value with be changed, which is not always ideal.</p>
+
+          <h2>Global Variables</h2>
+          <p>Global variables, which start with "$", are also accessible throughout a Ruby program. The issue with the accessibility is that the value can be modified from anywhere in that same program.</p>
+
+          <h2>Instance Variables</h2>
+          <p> Instance variables, which you have likely created numerous times over the past few weeks, begin with "@" and are accessible by instances of the class it is defined in. So lets say you have a variable @sum, which is modified on the instance of the class Math. The value of @sum is only specific to the instance and is not modified within the class itself.</p>
+
+          <h2>Class Variables</h2>
+          <p> Class variables, starting with "@@" are shared across every instance of the class that contains it. Now, if one instance modifies the value of the variable, the new value will be modified for subsequent instances as well.</p>
+
+          <h2>Local Variables</h2>
+          <p>Local variables, simply a downcased variable name without any prefixed symbols, are set within methods or loops and cannot be accessed elsewhere. If you try to access the variable outside of where it is declared an error will be thrown.
+
+          <script src="https://gist.github.com/vratkalkar/8d13c65f7c142c569535.js"></script>
+
+        </p>
+
+          <p>Lastly, of all of these variables you will almost always use instance, class, and local variables and the scope of constant and global variables will likely increase returned errors/bugs when they are modified. Also, I encourage you to do a simple search of "ruby variable scope" to find the many available online resources.</p>
+
+          <p></p>
+
+        </div>
+    </body>
+</html>
+
 </html>
