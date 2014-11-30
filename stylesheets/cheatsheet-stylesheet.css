@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #000000;
+    font-family: Helvetica, serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 40px 10px 10px;
+    width: 950px;
+    margin: auto;
+}
+
+.content {
+    background-color: #d6d6d6;
+    width: 950px;
+    margin: 0 auto;
+    text-indent: 350px;
+    padding: 10px 40px 10px 10px;
+}
+
+
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 40px 10px 10px;
+    text-align: right;
+    width: 950px;
+    margin: auto;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 70%;
+}
+
+hr {
+     margin-left: 20px;
+}
+
+p {
+    line-height: 100%
+}
