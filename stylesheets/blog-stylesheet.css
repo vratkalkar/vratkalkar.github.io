@@ -1,15 +1,22 @@
 html{
-  background-color: white;
+  background-image: url("../blog/sunset.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
 }
 
 hr {
-  width:100%;
+  width:126%;
+  margin-left:-130px;
 }
+
+
+
 
 #header {
   border: 2px solid black;
   height: 100px;
   width: 40%;
+  text-align: center;
   margin: auto;
   padding-top: 20px;
 
@@ -17,7 +24,10 @@ hr {
 
 h2{
   font-family: 'Duru Sans', sans-serif;
+  text-align: center;
 }
+
+
 
 p{
   font-family: 'Duru Sans', sans-serif;
@@ -33,3 +43,42 @@ ul li{
   font-family: 'Duru Sans', sans-serif;
 }
 
+/* Blog CSS */
+
+#blog-header{
+   font-family: 'Duru Sans', sans-serif;
+   text-align: center;
+}
+
+.blog-section {
+  font-family: 'Duru Sans', sans-serif;
+  text-align: center;
+}
+
+.blog-list{
+  padding-top: 10px;
+  font-family: 'Duru Sans', sans-serif;
+  margin-left: 38%;
+  font-size: 18px;
+  border: 2px solid black;
+  height: 220px;
+  width: 500px;
+  margin-top: 38px;
+  margin-left: 400px;
+  background-color: black;
+}
+
+.blog-list li {
+   margin-left: 100px;
+   color:white;
+   text-decoration: none;
+}
+
+.blog-list a{
+  color:white;
+  text-decoration: none;
+}
+
+.blog-list #non-tech{
+     margin-left: 100px;
+}
