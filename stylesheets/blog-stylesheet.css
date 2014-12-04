@@ -11,7 +11,6 @@ hr {
 
 
 
-
 #header {
   border: 2px solid black;
   height: 100px;
@@ -52,11 +51,12 @@ ul li{
 
 .blog-section {
   font-family: 'Duru Sans', sans-serif;
-  text-align: left;
+  font-size: 20px;
+  margin-left: 350px;
 }
 
 .blog-list{
-  padding-top: 10px;
+  padding-top: 15px;
   font-family: 'Duru Sans', sans-serif;
   margin-left: 38%;
   font-size: 18px;
@@ -82,3 +82,5 @@ ul li{
 .blog-list #non-tech{
      margin-left: 100px;
 }
+
+
