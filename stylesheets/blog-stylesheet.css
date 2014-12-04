@@ -54,12 +54,6 @@ ul li{
    text-align: center;
 }
 
-.blog-section {
-  font-family: 'Duru Sans', sans-serif;
-  font-size: 20px;
-  margin-top: 80px;
-  margin-left: 60%;
-}
 
 #culture{
    margin-top: -240px;
@@ -70,9 +64,9 @@ ul li{
   padding-top: 15px;
   padding-bottom: 30px;
   font-family: 'Duru Sans', sans-serif;
-  margin-left: 50%;
+  margin-left: 30%;
   margin-top: 80px;
-  font-size: 14px;
+  font-size: 15px;
   border: 2px solid black;
   height: 220px;
   width: 500px;
@@ -82,35 +76,39 @@ ul li{
 
 
 .blog-list li {
-   margin-left: 100px;
+   margin-left: 130px;
    color:white;
    text-decoration: none;
    list-style-type: none;
-   line-height: 22px;
+   line-height: 24px;
 }
 
 .blog-list a{
   color:white;
   text-decoration: none;
-  margin-right: 100px;
+  margin-right: 140px;
 }
+
+#tech
 
 
 .blog-list #non-tech{
-     margin-left: 100px;
+     margin-left: 50px;
+     margin-bottom: -100px;
 }
 
 #non-tech  {
-   margin-left: 2%;
+   margin-left: 30%;
    margin-top: -2px;
    positon:relative;
+   float:left;
 }
 
 #non-tech li a {
    margin: 0 auto;
-   line-height: 18px;
-   margin-left: 50px;
-   padding-top: 40px;
+   line-height: 24px;
+   margin-left: 1px;
+   padding-top: 480px;
 }
 
 
