@@ -41,6 +41,8 @@ ul li{
 
 /* Blog Index CSS */
 
+
+
 #body-background{
   background-image: url("../blog/sunset.jpg");
   background-repeat: no-repeat;
@@ -55,21 +57,29 @@ ul li{
 .blog-section {
   font-family: 'Duru Sans', sans-serif;
   font-size: 20px;
-  margin-left: 350px;
+  margin-top: 80px;
+  margin-left: 60%;
+}
+
+#culture{
+   margin-top: -240px;
+   margin-left: 18%;
 }
 
 .blog-list{
   padding-top: 15px;
+  padding-bottom: 30px;
   font-family: 'Duru Sans', sans-serif;
-  margin-left: 38%;
-  font-size: 18px;
+  margin-left: 50%;
+  margin-top: 80px;
+  font-size: 14px;
   border: 2px solid black;
   height: 220px;
   width: 500px;
-  margin-top: 38px;
-  margin-left: 400px;
   background-color: black;
 }
+
+
 
 .blog-list li {
    margin-left: 100px;
@@ -82,18 +92,25 @@ ul li{
 .blog-list a{
   color:white;
   text-decoration: none;
+  margin-right: 100px;
 }
+
 
 .blog-list #non-tech{
      margin-left: 100px;
 }
 
 #non-tech  {
-   padding-top: 20px;
+   margin-left: 2%;
+   margin-top: -2px;
+   positon:relative;
 }
 
 #non-tech li a {
    margin: 0 auto;
+   line-height: 18px;
+   margin-left: 50px;
+   padding-top: 40px;
 }
 
 
