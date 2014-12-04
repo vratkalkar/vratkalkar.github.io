@@ -70,6 +70,8 @@ ul li{
    margin-left: 100px;
    color:white;
    text-decoration: none;
+   list-style-type: none;
+   line-height: 22px;
 }
 
 .blog-list a{
