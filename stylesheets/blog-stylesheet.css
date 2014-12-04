@@ -30,6 +30,9 @@ p{
    width: 80%;
 }
 
+hr{
+  width: 100%;
+}
 
 ul li{
   font-family: 'Duru Sans', sans-serif;
