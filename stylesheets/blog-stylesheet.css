@@ -22,12 +22,12 @@ h2{
 
 p{
   font-family: 'Duru Sans', sans-serif;
-  font-size: 10px;
   margin-left: 10px;
 }
 
 #content{
    margin: auto;
+   font-size: 14px;
    width: 80%;
 }
 
