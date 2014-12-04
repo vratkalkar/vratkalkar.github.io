@@ -1,13 +1,5 @@
-#body-background{
-  background-image: url("../blog/sunset.jpg");
-  background-repeat: no-repeat;
-  background-position: center left;
-}
 
-hr {
-  width:126%;
-  margin-left:-130px;
-}
+
 
 
 
@@ -42,7 +34,13 @@ ul li{
   font-family: 'Duru Sans', sans-serif;
 }
 
-/* Blog CSS */
+/* Blog Index CSS */
+
+#body-background{
+  background-image: url("../blog/sunset.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
 
 #blog-header{
    font-family: 'Duru Sans', sans-serif;
@@ -81,6 +79,14 @@ ul li{
 
 .blog-list #non-tech{
      margin-left: 100px;
+}
+
+#non-tech  {
+   padding-top: 20px;
+}
+
+#non-tech li a {
+   margin: 0 auto;
 }
 
 
