@@ -98,7 +98,7 @@ h1{
   padding-top: 280px;
 }
 
-#repo_links li a:hover{
+.project_text li a:hover{
   color: white;
 }
 
