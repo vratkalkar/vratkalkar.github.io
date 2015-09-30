@@ -2,6 +2,7 @@ html {
   background-color: white;
 }
 
+
 #navbar{
   width: 100%;
   background-color: black;
@@ -95,11 +96,15 @@ h1{
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  padding-top: 280px;
+  padding-top: 160px;
 }
 
- a:hover{
+ .project_text li:hover{
   color: white;
+}
+
+.project_text h2{
+  margin-bottom: 100px;
 }
 
 
