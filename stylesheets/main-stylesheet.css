@@ -98,5 +98,9 @@ h1{
   padding-top: 280px;
 }
 
+.project_text ul li a:hover{
+  color:white;
+}
+
 
 
