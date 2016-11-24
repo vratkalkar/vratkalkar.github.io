@@ -1,8 +1,3 @@
-
-
-
-
-
 #header {
   border: 2px solid black;
   height: 100px;
@@ -31,7 +26,7 @@ p{
    width: 80%;
 }
 
-hr{
+hr {
   width: 100%;
 }
 
@@ -40,8 +35,6 @@ ul li{
 }
 
 /* Blog Index CSS */
-
-
 
 #body-background{
   background-image: url("../blog/otherbeachedited.jpg");
@@ -55,7 +48,7 @@ ul li{
 }
 
 
-#culture{
+#culture {
    margin-top: -240px;
    margin-left: 18%;
 }
@@ -104,10 +97,8 @@ ul li{
 }
 
 #non-tech li a {
-   margin: 0 auto;
    line-height: 24px;
    margin-left: 1px;
-   padding-top: 480px;
 }
 
 
