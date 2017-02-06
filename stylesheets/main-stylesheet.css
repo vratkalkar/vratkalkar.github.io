@@ -5,6 +5,7 @@ html {
 
 #navbar{
   width: 100%;
+  padding-left: 6%;
   background-color: black;
 }
 #navbar ul li{
